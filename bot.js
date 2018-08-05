@@ -262,7 +262,7 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
 const Myacc = new Discord.Client();
 
 Myacc.on('ready', () => {
-	Myacc.user.setGame('أخسر العالم كلها، لاتخسر الي يحبك.');
+	Myacc.user.setGame('أخسر العالم كلها، لاتخسر الي يحبك.', 'https://twitch.tv/foioi'});
 	console.log(`${Myacc.guilds.size}server, ${Myacc.users.size}user.`);
 });
 
