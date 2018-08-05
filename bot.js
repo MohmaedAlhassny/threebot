@@ -259,4 +259,15 @@ ${prefix}queue ⇏ لمعرفة قآئمة التشغيل
 
 
    
+const Myacc = new Discord.Client();
+
+Myacc.on('ready', () => {
+	Myacc.user.setGame('أخسر العالم كلها، لاتخسر الي يحبك.');
+	console.log(`${Myacc.guilds.size}server, ${Myacc.users.size}user.`);
+});
+
+Myacc.login(process.env.Mohmaed);
+
+
+
 client.login(process.env.TOKEN);
